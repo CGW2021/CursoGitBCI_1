@@ -27,7 +27,7 @@ public class FormularioContratacionPage extends ClaseBase {
         click(esperarPorElementoAClickear(locatorChkAutorizacion));
         click(esperarPorElementoAClickear(locatorBtnContinuar));
     }
-
+	//Comentario modificado : Definición de String
     public String obtenerMensajeError(){
         return obtenerTexto(esperarPorPresenciaElemento(locatorLblError));
     }

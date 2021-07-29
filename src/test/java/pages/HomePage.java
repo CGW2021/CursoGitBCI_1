@@ -11,6 +11,7 @@ public class HomePage extends ClaseBase {
     }
 
     //Identificar localizadores
+	//Cambio 3: Agrega comentario al By locator
     By locatorBtnHazteCliente = By.partialLinkText("Hazte clien");
 
 
