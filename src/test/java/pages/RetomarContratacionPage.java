@@ -5,11 +5,10 @@ import org.openqa.selenium.WebDriver;
 import utilidades.ClaseBase;
 
 public class RetomarContratacionPage extends ClaseBase {
-//Cambio 7
     public RetomarContratacionPage(WebDriver driver) {
         super(driver);
     }
-	//Cambio 7
+	//Cambio 8 Elimina y modifica
     //Identificar localizadores
     By locatorBtnRetomarContratacion =By.xpath("//button[contains(text(),'contrat')]");
 
