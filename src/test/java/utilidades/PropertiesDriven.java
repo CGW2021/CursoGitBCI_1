@@ -13,7 +13,7 @@ public class PropertiesDriven {
          prop = new Properties();
 
         try{
-            InputStream input = new FileInputStream("C:\\Users\\domingo.saavedra\\Desktop\\PageObjectModel_Repaso\\src\\test\\resources\\Setup.properties");
+            InputStream input = new FileInputStream("C:\\Cursos\\Git\\PageObjectModel_Repaso\\src\\test\\resources\\Setup.properties");
             prop.load(input);
 
         }catch(Exception e){
