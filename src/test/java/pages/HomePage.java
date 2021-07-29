@@ -11,14 +11,13 @@ public class HomePage extends ClaseBase {
     }
 
     //Identificar localizadores
-	//Cambio 4: Modifica y agrega comentario al By locator
+	//Cambio 5: Modifica y elimina comentario al By locator
     By locatorBtnHazteCliente = By.partialLinkText("Hazte clien");
 
 
     //acciones del page
     public void irAHazteCliente(){
         //un click con espera
-		//oTRO COMENTARIO cAMBIO 4
         click(esperarPorElementoAClickear(locatorBtnHazteCliente));
         //con el webElement
     }
