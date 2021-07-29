@@ -5,13 +5,13 @@ import org.openqa.selenium.WebDriver;
 import utilidades.ClaseBase;
 
 public class HomePage extends ClaseBase {
-
+	//Cambio 6 Agregado
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
     //Identificar localizadores
-	//Cambio 5: Modifica y elimina comentario al By locator
+	//Cambio 6: Agrega comentario
     By locatorBtnHazteCliente = By.partialLinkText("Hazte clien");
 
 
