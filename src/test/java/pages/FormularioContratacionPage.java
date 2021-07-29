@@ -19,7 +19,7 @@ public class FormularioContratacionPage extends ClaseBase {
 
     //locator mensajeError
     By locatorLblError = By.xpath("//mat-dialog-content");
-
+	// Cambio 9
     //acciones del page
     public void llenarFormularioRetomaContratacion(String rut,String nroSerie){
         agregarTexto(esperarPorPresenciaElemento(locatorTxtRut),rut);
@@ -27,7 +27,7 @@ public class FormularioContratacionPage extends ClaseBase {
         click(esperarPorElementoAClickear(locatorChkAutorizacion));
         click(esperarPorElementoAClickear(locatorBtnContinuar));
     }
-	//Comentario modificado : Definición de String
+	//Comentario modificado y agregado: Definición de String
     public String obtenerMensajeError(){
         return obtenerTexto(esperarPorPresenciaElemento(locatorLblError));
     }
